@@ -20,6 +20,7 @@ const Form = (props) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         await api.insertBook(props.book);
+        window.alert(`Added book ${props.book.title} by ${props.book.author}.`)
         props.setBook({ ...initialState })
         props.fetchData();
     }
@@ -29,6 +30,7 @@ const Form = (props) => {
         await api.updateBook(props.book._id, props.book);
         props.setBook({ ...initialState });
         props.fetchData();
+        window.alert('Book updated!')
     }
 
     const deleteBook = async (event) => {
@@ -36,6 +38,7 @@ const Form = (props) => {
         await api.deleteBook(props.book._id);
         props.fetchData();
         props.setBook({ ...initialState });
+        window.alert('Book deleted!');
     }
 
     return (
