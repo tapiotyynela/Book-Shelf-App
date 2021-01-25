@@ -5,7 +5,9 @@ Programming task for Buutti Oy. Basic CRUD application with Express backend, Rea
 
 Download the app as a zip folder and navigate to the downloaded folder in your terminal.
 
-Run command ##### npm install
-Navigate to client folder and run ##### npm install
+Run command
+##### - npm install
+Navigate to client folder and run command
+##### - npm install
 
 
