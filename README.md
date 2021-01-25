@@ -6,6 +6,8 @@ Programming task for Buutti Oy. Basic CRUD application with Express backend, Rea
 Download the app as a zip folder from github.
 
 ### 1. Set up database
+If you have Brew installed you can skip the first command, and if you have Brew and MongoDB installed you have to use only the last three commands of phase 1.
+
 App is using MongoDB, so if your computer does not have MongoDB installed we need to install it. MongoDB can be installed by using Brew. If you dont have Brew installed you can do it by running command
 #### /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -17,11 +19,11 @@ Once the install is complete you can run MongoDB by command
 #### brew services start mongodb-community@4.4
 Now you can start MongoDB shell in your terminal with command
 #### mongo
-To switch database type command
+To switch database type following command to MongoDB shell
 #### use bookshelf
 
-If you have Brew installed you can skip the first command, and if you have Brew and MongoDB installed you have to use only the last three commands of section 1.
-Now the database should be up and running. Now we need to set up the server and client.
+Now the database should be up and running.
+Now we need to set up the server and client.
 
 ### 2. Set up client and server
 
