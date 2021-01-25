@@ -6,8 +6,10 @@ Programming task for Buutti Oy. Basic CRUD application with Express backend, Rea
 Download the app as a zip folder and navigate to the downloaded folder in your terminal.
 
 Run command
-##### - npm install
+##### npm install
 Navigate to client folder and run command
-##### - npm install
+##### npm install
+Now navigate back to the project main folder "Book-Shelf-App-master" and run command
+##### npm run dev
 
 
