@@ -1,0 +1,50 @@
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+  width: 400px;
+  margin-bottom: 20px;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  border-bottom: 1px dotted #777;
+  cursor: pointer;
+}
+
+textarea {
+  height: 100px;
+  width: 400px;
+}
+
+.submit {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.booklist {
+  border: thin solid #777;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 10rem;
+  margin-left: 6rem;
+
+}
