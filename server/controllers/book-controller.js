@@ -1,4 +1,4 @@
-const Book = require('../../models/book-model')
+const Book = require('../db/models/book-model')
 
 createBook = (req, res) => {
   const body = req.body

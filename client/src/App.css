@@ -1,4 +1,4 @@
-
+/* CLASSES */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -7,14 +7,36 @@
   align-items: center;
 }
 
+.submit {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.booklist {
+  border: thin solid #777;
+  border-radius: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 10rem;
+  margin-left: 6rem;
+
+}
+
+/*ELEMENTS*/
 h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  color: #444;
+  box-shadow: #444 1px 1px;
+  margin-top: 10px;
 }
 
 input {
   width: 400px;
   margin-bottom: 20px;
-
 }
 
 ul {
@@ -32,19 +54,4 @@ li {
 textarea {
   height: 100px;
   width: 400px;
-}
-
-.submit {
-  width: 100px;
-  margin-right: 5px;
-}
-
-.booklist {
-  border: thin solid #777;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-bottom: 4rem;
-  margin-top: 10rem;
-  margin-left: 6rem;
-
 }
