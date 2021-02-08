@@ -1,5 +1,5 @@
 # Book-Shelf-App
-Programming task for Buutti Oy. Basic CRUD application with Express backend, React frontend and MongoDB database. 
+Basic CRUD application with Express backend, React frontend and MongoDB database. 
 
 ### Instructions to start app locally
 
